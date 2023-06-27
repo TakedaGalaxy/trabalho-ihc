@@ -5,15 +5,34 @@
     position: fixed;
     height: 100%;
     width: 100%;
+    margin: 0;
     
     .ContainerMenu {
       background-color: $cor-terciaria;
       color: $cor-quintenaria;
+      padding: 0;
     }
     
-    .ContainerPagina {
+    .ContainerPagina{
       background-color: $cor-quartenaria;
       color: $cor-quintenaria;
+      overflow-y: scroll;
+      height: 100%;
+      padding: 0;
+      
+      &::-webkit-scrollbar {
+        width: 5px;               /* width of the entire scrollbar */
+      }
+      
+      &::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: $cor-primaria;
+        border-radius: 2.5px;    
+      }
+      
     }
   }
 }
