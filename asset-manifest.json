@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TakedaGalaxy/trabalho-ihc.git/static/css/main.073c9b0a.css",
-    "main.js": "/TakedaGalaxy/trabalho-ihc.git/static/js/main.42c5049e.js",
-    "static/js/787.f657dcd1.chunk.js": "/TakedaGalaxy/trabalho-ihc.git/static/js/787.f657dcd1.chunk.js",
-    "static/media/logo.svg": "/TakedaGalaxy/trabalho-ihc.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/TakedaGalaxy/trabalho-ihc.git/index.html",
-    "main.073c9b0a.css.map": "/TakedaGalaxy/trabalho-ihc.git/static/css/main.073c9b0a.css.map",
-    "main.42c5049e.js.map": "/TakedaGalaxy/trabalho-ihc.git/static/js/main.42c5049e.js.map",
-    "787.f657dcd1.chunk.js.map": "/TakedaGalaxy/trabalho-ihc.git/static/js/787.f657dcd1.chunk.js.map"
+    "main.css": "/trabalho-ihc/static/css/main.073c9b0a.css",
+    "main.js": "/trabalho-ihc/static/js/main.f5ec69a2.js",
+    "static/js/787.f657dcd1.chunk.js": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js",
+    "static/media/logo.svg": "/trabalho-ihc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/trabalho-ihc/index.html",
+    "main.073c9b0a.css.map": "/trabalho-ihc/static/css/main.073c9b0a.css.map",
+    "main.f5ec69a2.js.map": "/trabalho-ihc/static/js/main.f5ec69a2.js.map",
+    "787.f657dcd1.chunk.js.map": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.42c5049e.js"
+    "static/js/main.f5ec69a2.js"
   ]
 }
