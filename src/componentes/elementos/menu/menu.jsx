@@ -1,53 +1,58 @@
 import * as React from "react";
-import { Link, useLocation } from "react-router-dom";
 import "./menu.scss";
+import { BiSearchAlt2 } from "react-icons/bi/";
+import PaginaPesquisar from "../../../paginas/pesquisar/pesquisar";
+import PaginaDestaques from "../../../paginas/destaques/destaques";
+import PaginaSalvos from "../../../paginas/salvos/salvos";
+import PaginaHistorico from "../../../paginas/historico/historico";
 
-import { BiSearchAlt2 } from "react-icons/bi";
-
-function BotaoMenu({ escrita, icone, link, ativo }) {
+function BotaoMenu({ escrita, icone, pagina, ativo, setRota }) {
   return (
     <div className="BotaoMenu">
-      <Link className="ancora" to={link}>
-        <button className={`botao ${ativo ? "ativo" : ""}`}>
-          <span>{escrita}</span>
-          {icone}
-        </button>
-      </Link>
+      <button
+        className={`botao ${ativo ? "ativo" : ""}`}
+        onClick={() => setRota({ titulo: escrita, componente: pagina })}
+      >
+        <span>{escrita}</span>
+        {icone}
+      </button>
     </div>
   );
 }
 
-export default function ElemetnoMenu() {
-  const rotaAtual = useLocation().pathname.split("/").at(1) ?? "";
-
+export default function ElemetnoMenu({ rotaAtual, setRota }) {
   return (
     <div className="MenuDescktop">
       <BotaoMenu
         escrita={"Pesquisar"}
         icone={<BiSearchAlt2 size={30} />}
-        link={"pesquisar"}
-        ativo={rotaAtual == "pesquisar"}
+        pagina={<PaginaPesquisar />}
+        ativo={rotaAtual.titulo == "Pesquisar"}
+        setRota={setRota}
       />
 
       <BotaoMenu
         escrita={"Destaques"}
         icone={<BiSearchAlt2 size={30} />}
-        link={"destaques"}
-        ativo={rotaAtual == "destaques"}
+        pagina={<PaginaDestaques />}
+        ativo={rotaAtual.titulo == "Destaques"}
+        setRota={setRota}
       />
 
       <BotaoMenu
         escrita={"Salvos"}
         icone={<BiSearchAlt2 size={30} />}
-        link={"salvos"}
-        ativo={rotaAtual == "salvos"}
+        pagina={<PaginaSalvos />}
+        ativo={rotaAtual.titulo == "Salvos"}
+        setRota={setRota}
       />
 
       <BotaoMenu
         escrita={"Histórico"}
         icone={<BiSearchAlt2 size={30} />}
-        link={"historico"}
-        ativo={rotaAtual == "historico"}
+        pagina={<PaginaHistorico />}
+        ativo={rotaAtual.titulo == "Histórico"}
+        setRota={setRota}
       />
     </div>
   );
