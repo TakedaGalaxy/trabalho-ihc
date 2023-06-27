@@ -7,7 +7,6 @@ export default function PaginaPesquisar() {
     <EstruturaContainer>
       <h1 style={{ display: "none" }}>Pesquisar</h1>
       <SecaoPesquisa />
-      <SecaoPesquisa />
     </EstruturaContainer>
   );
 }

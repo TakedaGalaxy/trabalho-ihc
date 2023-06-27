@@ -1,6 +1,8 @@
 import * as React from "react";
 import "./menu.scss";
-import { BiSearchAlt2 } from "react-icons/bi/";
+import { BiSearchAlt2, BiSolidStar } from "react-icons/bi";
+import { AiFillFire } from "react-icons/ai";
+import { BsClockFill } from "react-icons/bs";
 import PaginaPesquisar from "../../../paginas/pesquisar/pesquisar";
 import PaginaDestaques from "../../../paginas/destaques/destaques";
 import PaginaSalvos from "../../../paginas/salvos/salvos";
@@ -33,7 +35,7 @@ export default function ElemetnoMenu({ rotaAtual, setRota }) {
 
       <BotaoMenu
         escrita={"Destaques"}
-        icone={<BiSearchAlt2 size={30} />}
+        icone={<AiFillFire size={30} />}
         pagina={<PaginaDestaques />}
         ativo={rotaAtual.titulo == "Destaques"}
         setRota={setRota}
@@ -41,7 +43,7 @@ export default function ElemetnoMenu({ rotaAtual, setRota }) {
 
       <BotaoMenu
         escrita={"Salvos"}
-        icone={<BiSearchAlt2 size={30} />}
+        icone={<BiSolidStar size={30} />}
         pagina={<PaginaSalvos />}
         ativo={rotaAtual.titulo == "Salvos"}
         setRota={setRota}
@@ -49,7 +51,7 @@ export default function ElemetnoMenu({ rotaAtual, setRota }) {
 
       <BotaoMenu
         escrita={"Histórico"}
-        icone={<BiSearchAlt2 size={30} />}
+        icone={<BsClockFill size={30} />}
         pagina={<PaginaHistorico />}
         ativo={rotaAtual.titulo == "Histórico"}
         setRota={setRota}
