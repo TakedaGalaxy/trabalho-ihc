@@ -9,6 +9,10 @@
 
 .BotaoMenu {
   width: 80%;
+  transition: all .3s;
+  &:hover {
+    width: 85%;
+  }
 
   .botao {
     width: 100%;
@@ -24,9 +28,6 @@
     color: $cor-quintenaria;
     padding: 0 15px;
     transition: all 0.2s;
-    &:hover {
-      background-color: lighten($cor-secundaria, 40%);
-    }
 
     &.ativo {
       background-color: $cor-secundaria;
