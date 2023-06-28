@@ -1,9 +1,10 @@
+import SecaoListagemSalvos from "../../componentes/secoes/listagem-salvos/listagem-salvos";
 import "./salvos.scss";
 
 export default function PaginaSalvos() {
   return (
     <>
-      <h1>Salvos</h1>
+      <SecaoListagemSalvos />
     </>
   );
 }

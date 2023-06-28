@@ -14,6 +14,8 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    background-color: $cor-primaria;
+    cursor: pointer;
   }
 
   .containerResultados {
@@ -39,7 +41,7 @@
     flex-wrap: wrap;
     
     .referencia{
-      border:  solid $cor-detalhe 1px;
+      border:  solid $cor-primaria 1px;
       display: flex;
       gap: 5px;
       justify-content: center;
@@ -48,6 +50,7 @@
       border-radius: 15px;
       font-size: 16px;
       padding-right: 10px;
+      cursor: pointer;
 
       .numeroReferencia{
         height: 25px;

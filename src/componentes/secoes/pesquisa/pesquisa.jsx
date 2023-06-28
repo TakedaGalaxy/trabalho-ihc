@@ -2,15 +2,7 @@ import "./pesquisa.scss";
 import { Row, Col } from "react-bootstrap";
 import ElementoResultadoPesquisa from "../../elementos/resultado-pesquisa/resultado-pesquisa";
 import { BiSearchAlt2, BiSolidSave, BiStar } from "react-icons/bi/";
-
-function ElementoOpcao({ icone, escrita }) {
-  return (
-    <div className="opcao">
-      {icone}
-      <span className="texto">{escrita}</span>
-    </div>
-  );
-}
+import ElementoOpcao from "../../elementos/opcao/opcao";
 
 export default function SecaoPesquisa() {
   return (
