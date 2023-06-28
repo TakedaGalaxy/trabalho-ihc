@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+
   .containerBotoes {
     display: flex;
     flex-direction: column;
@@ -12,11 +13,12 @@
     padding: 30px 0;
   }
   .containerUsuario {
-    cursor: pointer;
     padding: 15px 12px;
     text-align: center;
     color: $cor-quintenaria;
+
     .logginUsuario {
+      cursor: pointer;
       position: relative;
       display: flex;
       align-items: center;
@@ -41,9 +43,9 @@
         width: 30px;
         padding: 5px;
         border-radius: 100%;
-        transition: all .3s;
-        
-        &:hover{
+        transition: all 0.3s;
+
+        &:hover {
           transform: translate(0, -50%) rotate(-20deg);
         }
       }

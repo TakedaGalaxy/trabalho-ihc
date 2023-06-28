@@ -22,7 +22,7 @@ function BotaoMenu({ escrita, icone, pagina, ativo, setRota }) {
   );
 }
 
-export default function ElemetnoMenu({ rotaAtual, setRota }) {
+export default function ElemetnoMenu({ rotaAtual, setRota, setLogginAtivo }) {
   return (
     <div className="MenuDescktop">
       <div className="containerBotoes">
@@ -59,10 +59,15 @@ export default function ElemetnoMenu({ rotaAtual, setRota }) {
         />
       </div>
       <div className="containerUsuario">
-        <div className="logginUsuario">
+        <div
+          className="logginUsuario"
+          onClick={() => {
+            setLogginAtivo(true);
+          }}
+        >
           <BiSolidUser className="icone" />
           <span>Usuário 90</span>
-          <BsGearFill className="iconeConfiguracoes"/>
+          <BsGearFill className="iconeConfiguracoes" />
         </div>
         <hr />
         <span>© Made by Takeda 2023</span>
