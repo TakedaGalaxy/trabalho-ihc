@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/trabalho-ihc/static/css/main.09f1782e.css",
-    "main.js": "/trabalho-ihc/static/js/main.9fc4424a.js",
+    "main.css": "/trabalho-ihc/static/css/main.df38dd95.css",
+    "main.js": "/trabalho-ihc/static/js/main.e445dec1.js",
     "static/js/787.f657dcd1.chunk.js": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js",
     "index.html": "/trabalho-ihc/index.html",
     "static/media/placeholder.PNG": "/trabalho-ihc/static/media/placeholder.1ba8b3ca8a462830ec54.PNG",
-    "main.09f1782e.css.map": "/trabalho-ihc/static/css/main.09f1782e.css.map",
-    "main.9fc4424a.js.map": "/trabalho-ihc/static/js/main.9fc4424a.js.map",
+    "main.df38dd95.css.map": "/trabalho-ihc/static/css/main.df38dd95.css.map",
+    "main.e445dec1.js.map": "/trabalho-ihc/static/js/main.e445dec1.js.map",
     "787.f657dcd1.chunk.js.map": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09f1782e.css",
-    "static/js/main.9fc4424a.js"
+    "static/css/main.df38dd95.css",
+    "static/js/main.e445dec1.js"
   ]
 }
