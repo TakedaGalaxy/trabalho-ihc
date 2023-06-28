@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/trabalho-ihc/static/css/main.aa1b1d9a.css",
-    "main.js": "/trabalho-ihc/static/js/main.c16f7e3a.js",
+    "main.js": "/trabalho-ihc/static/js/main.981d578c.js",
     "static/js/787.f657dcd1.chunk.js": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js",
     "index.html": "/trabalho-ihc/index.html",
     "static/media/placeholder.PNG": "/trabalho-ihc/static/media/placeholder.1ba8b3ca8a462830ec54.PNG",
     "main.aa1b1d9a.css.map": "/trabalho-ihc/static/css/main.aa1b1d9a.css.map",
-    "main.c16f7e3a.js.map": "/trabalho-ihc/static/js/main.c16f7e3a.js.map",
+    "main.981d578c.js.map": "/trabalho-ihc/static/js/main.981d578c.js.map",
     "787.f657dcd1.chunk.js.map": "/trabalho-ihc/static/js/787.f657dcd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa1b1d9a.css",
-    "static/js/main.c16f7e3a.js"
+    "static/js/main.981d578c.js"
   ]
 }
