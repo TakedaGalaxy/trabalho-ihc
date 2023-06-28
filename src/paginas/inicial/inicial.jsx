@@ -18,7 +18,7 @@ export default function PaginaInicial() {
           <Col className="containerEscrita" lg={4}>
             <h2 className="subTitulo">Capacidade</h2>
             <div className="boxTexto">
-              Sintetizar texto sobre uma determidana entrada com articos
+              Sintetizar texto sobre uma determinada entrada com artigos
               academicos
             </div>
             <div className="boxTexto">
