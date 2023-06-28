@@ -1,5 +1,5 @@
 import "./container.scss";
 
-export default function EstruturaContainer({ children }) {
-  return <div className="Container">{children}</div>;
+export default function EstruturaContainer({ children, className }) {
+  return <div className={`Container ${className ?? ""}`}>{children}</div>;
 }

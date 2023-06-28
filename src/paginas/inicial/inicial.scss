@@ -1,1 +1,35 @@
 @import "../../tema/variaveis.scss";
+
+.PaginaInicial {
+  height: 100%;
+  .SecaoApresentacao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .titulo{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .containerEscrita{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .subTitulo{
+        font-size: 28px;
+        text-align: center;
+      }
+
+      .boxTexto{
+        border: solid 2px $cor-detalhe;
+        background-color: $cor-detalhe;
+        border-radius: 15px;
+        padding: 15px 12px;
+        text-align: center;
+      }
+    }
+  }
+}
