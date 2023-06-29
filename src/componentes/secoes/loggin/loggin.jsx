@@ -27,12 +27,12 @@ export default function SecaoLoggin({ ativo, setLogginAtivo }) {
             </Col>
             <Col lg={12} className="containerEntradas">
               <InputGroup className="entrada">
-                <FloatingLabel label="Nome de usuário">
+                <FloatingLabel label="Email do usuário">
                   <Form.Control className="entrada" />
                 </FloatingLabel>
               </InputGroup>
               <InputGroup className="entrada">
-                <FloatingLabel label="Email do usuário">
+                <FloatingLabel label="Senha do usuário">
                   <Form.Control className="entrada" />
                 </FloatingLabel>
               </InputGroup>

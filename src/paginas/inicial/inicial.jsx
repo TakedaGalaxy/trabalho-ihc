@@ -18,18 +18,19 @@ export default function PaginaInicial() {
           <Col className="containerEscrita" lg={4}>
             <h2 className="subTitulo">Capacidade</h2>
             <div className="boxTexto">
-              Sintetizar texto sobre uma determinada entrada com artigos
-              academicos
+              Sintetizar textos apartir da entrada do usuario, utilizando
+              artigos acadêmicos
             </div>
             <div className="boxTexto">
-              Utilizar o contexto para melhorar a sintetização
+              Levar em consideração o contexto dos dados, para melhorar a
+              sintetização
             </div>
           </Col>
           <Col className="containerEscrita" lg={4}>
             <h2 className="subTitulo">Limitações</h2>
             <div className="boxTexto">
-              Ao passar pouco contexto se pode ter uma queda de precisão do que
-              é requerido
+              Entradas muito simples afeta na precisão do que é esperado como
+              resposta
             </div>
           </Col>
         </Row>
